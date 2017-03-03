@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -77,6 +78,14 @@ namespace Calc
         private void numero9_Click(object sender, EventArgs e)
         {
             setNumero(9);
+        }
+
+        private void numeroPonto_Click(object sender, EventArgs e)
+        {
+            if (hostorico.Text.IndexOf(",") > 0)
+            {
+                //significa que a vírgula já foi digitada 
+            }
         }
 
         private void hostorico_TextChanged(object sender, EventArgs e)
@@ -217,6 +226,11 @@ namespace Calc
         private void apagar_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

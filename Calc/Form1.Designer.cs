@@ -58,7 +58,7 @@
             this.hostorico.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.25F);
             this.hostorico.Location = new System.Drawing.Point(12, 12);
             this.hostorico.Name = "hostorico";
-            this.hostorico.Size = new System.Drawing.Size(347, 46);
+            this.hostorico.Size = new System.Drawing.Size(641, 46);
             this.hostorico.TabIndex = 0;
             this.hostorico.TextChanged += new System.EventHandler(this.hostorico_TextChanged);
             // 
@@ -66,17 +66,17 @@
             // 
             this.tela.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.tela.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
-            this.tela.Location = new System.Drawing.Point(278, 62);
+            this.tela.Location = new System.Drawing.Point(269, 60);
             this.tela.Name = "tela";
-            this.tela.Size = new System.Drawing.Size(71, 27);
+            this.tela.Size = new System.Drawing.Size(384, 27);
             this.tela.TabIndex = 1;
             this.tela.TextChanged += new System.EventHandler(this.tela_TextChanged);
             // 
             // numero0
             // 
-            this.numero0.Location = new System.Drawing.Point(20, 202);
+            this.numero0.Location = new System.Drawing.Point(11, 168);
             this.numero0.Name = "numero0";
-            this.numero0.Size = new System.Drawing.Size(80, 29);
+            this.numero0.Size = new System.Drawing.Size(80, 59);
             this.numero0.TabIndex = 2;
             this.numero0.Text = "0";
             this.numero0.UseVisualStyleBackColor = true;
@@ -84,9 +84,9 @@
             // 
             // numero00
             // 
-            this.numero00.Location = new System.Drawing.Point(106, 202);
+            this.numero00.Location = new System.Drawing.Point(97, 64);
             this.numero00.Name = "numero00";
-            this.numero00.Size = new System.Drawing.Size(80, 29);
+            this.numero00.Size = new System.Drawing.Size(80, 58);
             this.numero00.TabIndex = 3;
             this.numero00.Text = "00";
             this.numero00.UseVisualStyleBackColor = true;
@@ -94,16 +94,16 @@
             // 
             // numeroPonto
             // 
-            this.numeroPonto.Location = new System.Drawing.Point(192, 202);
+            this.numeroPonto.Location = new System.Drawing.Point(12, 233);
             this.numeroPonto.Name = "numeroPonto";
-            this.numeroPonto.Size = new System.Drawing.Size(80, 29);
+            this.numeroPonto.Size = new System.Drawing.Size(165, 29);
             this.numeroPonto.TabIndex = 4;
             this.numeroPonto.Text = ".";
             this.numeroPonto.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(289, 97);
+            this.button4.Location = new System.Drawing.Point(605, 97);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(48, 134);
             this.button4.TabIndex = 5;
@@ -113,9 +113,9 @@
             // 
             // numero1
             // 
-            this.numero1.Location = new System.Drawing.Point(20, 167);
+            this.numero1.Location = new System.Drawing.Point(97, 168);
             this.numero1.Name = "numero1";
-            this.numero1.Size = new System.Drawing.Size(80, 29);
+            this.numero1.Size = new System.Drawing.Size(80, 59);
             this.numero1.TabIndex = 6;
             this.numero1.Text = "1";
             this.numero1.UseVisualStyleBackColor = true;
@@ -123,9 +123,9 @@
             // 
             // numero2
             // 
-            this.numero2.Location = new System.Drawing.Point(106, 167);
+            this.numero2.Location = new System.Drawing.Point(183, 192);
             this.numero2.Name = "numero2";
-            this.numero2.Size = new System.Drawing.Size(80, 29);
+            this.numero2.Size = new System.Drawing.Size(80, 58);
             this.numero2.TabIndex = 7;
             this.numero2.Text = "2";
             this.numero2.UseVisualStyleBackColor = true;
@@ -133,9 +133,9 @@
             // 
             // numero3
             // 
-            this.numero3.Location = new System.Drawing.Point(192, 167);
+            this.numero3.Location = new System.Drawing.Point(269, 163);
             this.numero3.Name = "numero3";
-            this.numero3.Size = new System.Drawing.Size(80, 29);
+            this.numero3.Size = new System.Drawing.Size(89, 63);
             this.numero3.TabIndex = 8;
             this.numero3.Text = "3";
             this.numero3.UseVisualStyleBackColor = true;
@@ -143,7 +143,7 @@
             // 
             // numero4
             // 
-            this.numero4.Location = new System.Drawing.Point(20, 132);
+            this.numero4.Location = new System.Drawing.Point(97, 128);
             this.numero4.Name = "numero4";
             this.numero4.Size = new System.Drawing.Size(80, 29);
             this.numero4.TabIndex = 9;
@@ -153,9 +153,9 @@
             // 
             // numero5
             // 
-            this.numero5.Location = new System.Drawing.Point(106, 132);
+            this.numero5.Location = new System.Drawing.Point(183, 128);
             this.numero5.Name = "numero5";
-            this.numero5.Size = new System.Drawing.Size(80, 29);
+            this.numero5.Size = new System.Drawing.Size(80, 58);
             this.numero5.TabIndex = 10;
             this.numero5.Text = "5";
             this.numero5.UseVisualStyleBackColor = true;
@@ -163,9 +163,9 @@
             // 
             // numero6
             // 
-            this.numero6.Location = new System.Drawing.Point(192, 132);
+            this.numero6.Location = new System.Drawing.Point(269, 128);
             this.numero6.Name = "numero6";
-            this.numero6.Size = new System.Drawing.Size(80, 29);
+            this.numero6.Size = new System.Drawing.Size(89, 29);
             this.numero6.TabIndex = 11;
             this.numero6.Text = "6";
             this.numero6.UseVisualStyleBackColor = true;
@@ -173,9 +173,9 @@
             // 
             // numero7
             // 
-            this.numero7.Location = new System.Drawing.Point(20, 97);
+            this.numero7.Location = new System.Drawing.Point(12, 64);
             this.numero7.Name = "numero7";
-            this.numero7.Size = new System.Drawing.Size(80, 29);
+            this.numero7.Size = new System.Drawing.Size(80, 93);
             this.numero7.TabIndex = 12;
             this.numero7.Text = "7";
             this.numero7.UseVisualStyleBackColor = true;
@@ -183,9 +183,9 @@
             // 
             // numero8
             // 
-            this.numero8.Location = new System.Drawing.Point(106, 97);
+            this.numero8.Location = new System.Drawing.Point(183, 64);
             this.numero8.Name = "numero8";
-            this.numero8.Size = new System.Drawing.Size(80, 29);
+            this.numero8.Size = new System.Drawing.Size(80, 58);
             this.numero8.TabIndex = 13;
             this.numero8.Text = "8";
             this.numero8.UseVisualStyleBackColor = true;
@@ -193,9 +193,9 @@
             // 
             // numero9
             // 
-            this.numero9.Location = new System.Drawing.Point(192, 97);
+            this.numero9.Location = new System.Drawing.Point(269, 93);
             this.numero9.Name = "numero9";
-            this.numero9.Size = new System.Drawing.Size(80, 29);
+            this.numero9.Size = new System.Drawing.Size(89, 29);
             this.numero9.TabIndex = 14;
             this.numero9.Text = "9";
             this.numero9.UseVisualStyleBackColor = true;
@@ -203,9 +203,9 @@
             // 
             // adicao
             // 
-            this.adicao.Location = new System.Drawing.Point(20, 62);
+            this.adicao.Location = new System.Drawing.Point(547, 163);
             this.adicao.Name = "adicao";
-            this.adicao.Size = new System.Drawing.Size(39, 29);
+            this.adicao.Size = new System.Drawing.Size(52, 68);
             this.adicao.TabIndex = 15;
             this.adicao.Text = "+";
             this.adicao.UseVisualStyleBackColor = true;
@@ -213,9 +213,9 @@
             // 
             // subtracao
             // 
-            this.subtracao.Location = new System.Drawing.Point(61, 62);
+            this.subtracao.Location = new System.Drawing.Point(364, 128);
             this.subtracao.Name = "subtracao";
-            this.subtracao.Size = new System.Drawing.Size(39, 29);
+            this.subtracao.Size = new System.Drawing.Size(62, 103);
             this.subtracao.TabIndex = 16;
             this.subtracao.Text = "-";
             this.subtracao.UseVisualStyleBackColor = true;
@@ -223,9 +223,9 @@
             // 
             // multiplicacao
             // 
-            this.multiplicacao.Location = new System.Drawing.Point(106, 62);
+            this.multiplicacao.Location = new System.Drawing.Point(432, 128);
             this.multiplicacao.Name = "multiplicacao";
-            this.multiplicacao.Size = new System.Drawing.Size(39, 29);
+            this.multiplicacao.Size = new System.Drawing.Size(109, 103);
             this.multiplicacao.TabIndex = 17;
             this.multiplicacao.Text = "X";
             this.multiplicacao.UseVisualStyleBackColor = true;
@@ -233,9 +233,9 @@
             // 
             // divisao
             // 
-            this.divisao.Location = new System.Drawing.Point(147, 62);
+            this.divisao.Location = new System.Drawing.Point(547, 97);
             this.divisao.Name = "divisao";
-            this.divisao.Size = new System.Drawing.Size(39, 29);
+            this.divisao.Size = new System.Drawing.Size(52, 60);
             this.divisao.TabIndex = 18;
             this.divisao.Text = "÷";
             this.divisao.UseVisualStyleBackColor = true;
@@ -243,9 +243,9 @@
             // 
             // zerar
             // 
-            this.zerar.Location = new System.Drawing.Point(192, 62);
+            this.zerar.Location = new System.Drawing.Point(364, 93);
             this.zerar.Name = "zerar";
-            this.zerar.Size = new System.Drawing.Size(39, 29);
+            this.zerar.Size = new System.Drawing.Size(177, 29);
             this.zerar.TabIndex = 19;
             this.zerar.Text = "CE";
             this.zerar.UseVisualStyleBackColor = true;
@@ -253,9 +253,9 @@
             // 
             // apagar
             // 
-            this.apagar.Location = new System.Drawing.Point(233, 62);
+            this.apagar.Location = new System.Drawing.Point(346, 237);
             this.apagar.Name = "apagar";
-            this.apagar.Size = new System.Drawing.Size(39, 29);
+            this.apagar.Size = new System.Drawing.Size(307, 29);
             this.apagar.TabIndex = 20;
             this.apagar.Text = "<<";
             this.apagar.UseVisualStyleBackColor = true;
@@ -266,7 +266,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(371, 243);
+            this.ClientSize = new System.Drawing.Size(665, 268);
             this.Controls.Add(this.apagar);
             this.Controls.Add(this.zerar);
             this.Controls.Add(this.divisao);
@@ -292,7 +292,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Calculadora BSI";
+            this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
